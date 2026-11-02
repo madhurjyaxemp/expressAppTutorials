@@ -1,0 +1,18 @@
+# Environment variables (highly sensitive API keys/secrets)
+.env
+.env.local
+.env.development.local
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies (not sensitive, but shouldn't be pushed)
+node_modules/
+venv/
